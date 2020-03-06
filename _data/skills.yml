@@ -1,12 +1,13 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Progrmming Language
+  description: C/C++, etc.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Other Tools
+  description: OpenGL, CUDA, Unity, Qt, Linux, etc.
+
+- skill: Language
+  description: Chinese (Native Speaker), English (CET-6 491)
+
+- skill: Interests
+  description: Sports(Runing, Ping Pong, Badminton, Shuttlerock), Learning Math, Learning English (Every day)
