@@ -10,4 +10,8 @@
   description: Chinese (Native Speaker), English (CET-6 491)
 
 - skill: Interests
-  description: Sports(Runing, Ping Pong, Badminton, Shuttlerock), Learning Math, Learning English (Every day)
+  description: "
+    <li>Sports: Running, Ping Pong, Badminton, Shuttlecock, etc.</li>
+    <li>Learning Math</li>
+    <li>Learning English (Every day)</li>
+  "

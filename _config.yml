@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Yu Zhang | 张宇"
-resume_title:                   "About me"
+resume_title:                   "About Me"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "yucrazing@mail.bnu.edu.cn"
@@ -20,11 +20,14 @@ resume_contact_email:           "yucrazing@mail.bnu.edu.cn"
 resume_contact_telephone:       "18813144260"
 resume_contact_address:         "Beijing Normal University"
 
-resume_header_contact_info:     "No.19, Xinjiekouwai St, Haidian District, Beijing, 100875, P.R. China • Beijing Normal University • yucrazing@mail.bnu.edu.cn"
+resume_header_contact_info:     "<font size=2>No.19, Xinjiekouwai St, Haidian District, Beijing • Beijing Normal University • yucrazing@mail.bnu.edu.cn</font>"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I am a postgraduate at Beijing Normal University,
-                            I am going to join Tecent Games after graduation.</p>"
+resume_header_intro: "<p>
+                            I am a postgraduate at the Department of Computer Science and Technology of Beijing Normal University.
+                            My research interests are in computer graphics and my mentor is Professor Zhongke Wu.
+                            On schedule, I will graduate in July 2020 and join Tencent Games then.
+                        </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

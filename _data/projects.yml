@@ -13,15 +13,15 @@
 
 - project: Real-Time Fluid Simulation in Games
   role: Personal Project (Advisor &colon; Xiaosheng Li)
-  duration: Jun, 2019  &mdash; Sep, 2019
+  duration: Jul, 2019  &mdash; Sep, 2019
   url: "https://yucrazing.github.io/2019/09/01/SPH-Fluid-Simulation.html"
   description: "<ul>
-                  <li>Reimplement, compare and optimize the SPH method and the PBF method on PC and mobile.</li>
-                  <li>Rendering fluid with Marching Cubes and SSFR (Screen Space Fluid Rendering)</li>
+                  <li>Reimplement, compare and optimize the SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids) methods on PC and mobile.</li>
+                  <li>Rendering fluid with Marching Cubes and SSFR (Screen Space Fluid Rendering) methods</li>
                   <li>Performance (with rendering):
                     <ul>
-                    <li>64k particles 30FPS on PC (GTX 750Ti)</li>
-                    <li>5k particles 30FPS on mobile (Xiaomi6)</li>
+                    <li>64k particles, 30FPS on PC (GTX 750Ti)</li>
+                    <li>5k particles, 30FPS on mobile (Xiaomi6)</li>
                     </ul>
                   </li>
                   <li>Tools: C++, OpenGL, Vulkan, Compute Shader in Unity</li>
@@ -31,7 +31,7 @@
 - project: Dynamic Ball B-Spline Curves
   role: Personal Research (Advisor &colon; Zhongke Wu)
   duration: 2018 &mdash; Present
-  # url: "#"
+  url: "https://yucrazing.github.io/2019/10/25/Dynamic-Ball-B-Spline-Curves.html"
   description: "
                    <ul>
                      <li>
@@ -42,7 +42,7 @@
                        Implement a D-BBSC physical simulation system based on finite difference method.
                      </li>
                     <li>
-                      Publish《Dynamic Ball B-Spline Curves》 on
+                      Paper &quot;<b>Dynamic Ball B-Spline Curves</b>&quot; is going to be submitted.
                     </li>
                      <li>
                        Tools: C++, OpenGL, Qt
@@ -64,7 +64,7 @@
                       Implement a D-DBSC physical simulation system based on finite difference method.
                     </li>
                     <li>
-                      Publish《Dynamic Disk B-Spline Curves》 on
+                      Paper &quot;<b>Dynamic Disk B-Spline Curves</b>&quot; is submitted to <i>Shape Modeling International</i> (SMI 2020).
                     </li>
                     <li>
                       Tools: C++, OpenGL, Qt

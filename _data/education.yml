@@ -1,17 +1,20 @@
 # Degree
-- degree: Bachelor of Computer Science and Technology
-  uni: Beijing Normal University
-  year: 2013 &mdash; 2017
-  awards:
-    - award: First Prize of Academic Scholarship (Every year)
-    - award: The National Scholarship (2015)
-    - award: The China Collegiate Programming Contest (CCPC) [Gold Medal(2015), Gold Medal(2016)]
-    - award: The International Collegiate Programming Contest (ICPC Regional) [Gold Medal(2016), Gold Medal(2017)]
-#  summary: If you had any meaningful roles at college, feel free to write about them here
-
 - degree: Master of Computer Application Technology
   uni: Beijing Normal University
   year: 2017 &mdash; Present
   awards:
     - award: First Prize of Academic Scholarship (Every year)
 #  summary: You can choose to have either a single or multiple awards
+
+
+- degree: Bachelor of Computer Science and Technology
+  uni: Beijing Normal University
+  year: 2013 &mdash; 2017
+  awards:
+    - award: First Prize of Academic Scholarship (Every year)
+    - award: The National Scholarship (2015)
+    - award: The China Collegiate Programming Contest (CCPC) <ul><li><b>Gold Medal</b> (<a href="https://ccpc.io/post/91">2015, Nanyang</a>)</li> <li><b>Gold Medal</b> (<a href="https://ccpc.io/post/94">2016, Hefei</a>)</li></ul>
+    - award: The International Collegiate Programming Contest (ICPC Regional) <ul><li><b>Gold Medal</b> (<a href="https://icpc.baylor.edu/regionals/finder/qingdao-2016/standings">2016, Qingdao, Team Coldforces</a>)</li> <li><b>Gold Medal</b> (<a href="https://icpc.baylor.edu/regionals/finder/asia-xian-2017/standings">2017, Xi'an, Team TrainNewBee</a>)</li></ul>
+#  summary: If you had any meaningful roles at college, feel free to write about them here
+
+
