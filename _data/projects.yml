@@ -6,7 +6,7 @@
   duration: Jan, 2020  &mdash; Present
 #  url: "#"
   description: "<ul>
-                  <li>Using Conditional Variational AutoEncoder (CVAE) with discriminator in story generation tasks.</li>
+                  <li>Use Conditional Variational AutoEncoder (CVAE) with discriminator in story generation tasks.</li>
                   <li>Tools: Python, Tensorflow, Linux</li>
                   </ul>
                  "
@@ -103,7 +103,7 @@
   description: "
                   <ul>
                     <li>
-                      Develop a software for visualzing, editing, and fitting 3D vascular data.
+                      Develop a software for visualizing, editing, and fitting 3D vascular data.
                     </li>
                     <li>
                       This software is used by Beijing Normal University VR Laboratory.
