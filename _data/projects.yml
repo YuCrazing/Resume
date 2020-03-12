@@ -5,7 +5,8 @@
   role: Team Research (with <a href="https://github.com/linxiaoby">@linxiaoby</a>)
   duration: Jan, 2020  &mdash; Present
 #  url: "#"
-  description: "<ul>
+  description: "
+                  <ul>
                   <li>Use Conditional Variational AutoEncoder (CVAE) with discriminator in story generation tasks.</li>
                   <li>Tools: Python, Tensorflow, Linux</li>
                   </ul>
@@ -15,9 +16,10 @@
   role: Personal Project (Advisor &colon; Xiaosheng Li)
   duration: Jul, 2019  &mdash; Sep, 2019
   url: "https://yucrazing.github.io/2019/09/01/SPH-Fluid-Simulation.html"
-  description: "<ul>
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/SPH-Water/MCFinalRendering.gif\" width = 30%></img>
+  description: "
+                  <ul>
                   <li>Reimplement, compare and optimize the SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids) methods on PC and mobile.</li>
-                  <li>Rendering fluid with Marching Cubes and SSFR (Screen Space Fluid Rendering) methods</li>
                   <li>Performance (with rendering):
                     <ul>
                     <li>64k particles, 30FPS on PC (GTX 750Ti)</li>
@@ -32,6 +34,13 @@
   role: Personal Research (Advisor &colon; Zhongke Wu)
   duration: 2018 &mdash; Present
   url: "https://yucrazing.github.io/2019/10/25/Dynamic-Ball-B-Spline-Curves.html"
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/18.png\" width = 16%></img>
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/19.png\" width = 16%></img>
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-8.png\" width = 16%></img>
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-9.png\" width = 16%></img>
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-12.png\" width = 16%></img>
+#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-13.png\" width = 16%></img>
+
   description: "
                    <ul>
                      <li>

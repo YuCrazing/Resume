@@ -17,7 +17,7 @@ resume_title:                   "About Me"
 resume_contact_email:           "yucrazing@mail.bnu.edu.cn"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "18813144260"
+resume_contact_telephone:       "#"
 resume_contact_address:         "Beijing Normal University"
 
 resume_header_contact_info:     "<font size=2>No.19, Xinjiekouwai St, Haidian District, Beijing • Beijing Normal University • yucrazing@mail.bnu.edu.cn</font>"
