@@ -20,6 +20,7 @@
   description: "
                   <ul>
                   <li>Reimplement, compare and optimize the SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids) methods on PC and mobile.</li>
+                  <li>Fluid surface is rendering by Marching Cubes and SSFR (Screen Space Fluid Rendering) two different methods.</li>
                   <li>Performance (with rendering):
                     <ul>
                     <li>64k particles, 30FPS on PC (GTX 750Ti)</li>
