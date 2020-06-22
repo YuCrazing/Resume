@@ -1,9 +1,25 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: Story Generation using Conditional Variational AutoEncoder with Discriminator
-  role: Team Research (with <a href="https://github.com/linxiaoby">@linxiaoby</a>)
-  duration: Jan, 2020  &mdash; Present
+- project: An implementation of explicit 3D FEM using tetrahedral elements
+  role: Personal Project
+  duration: June, 2020
+  url: "https://github.com/YuCrazing/Taichi/tree/master/fem_3d"
+  description: "
+                  <ul>
+                  <li>An implementation of 3D FEM, with:</li>
+                        <ul>
+                          <li>Hyperelasticity model</li>
+                          <li>Linear tetrahedral finite elements</li>
+                          <li>Semi-implicit Euler time integration</li>
+                        </ul>
+                  <li>Tools: Python, Taichi</li>
+                  </ul>
+                 "
+
+- project: Story Generation using CVAE with Discriminator
+  role: Team Project (with <a href="https://github.com/linxiaoby">@linxiaoby</a>)
+  duration: Jan, 2020  &mdash; May, 2020
 #  url: "#"
   description: "
                   <ul>
@@ -31,84 +47,9 @@
                   </ul>
                  "
 
-- project: Dynamic Ball B-Spline Curves
-  role: Personal Research (Advisor &colon; Zhongke Wu)
-  duration: 2018 &mdash; Present
-  url: "https://yucrazing.github.io/2019/10/25/Dynamic-Ball-B-Spline-Curves.html"
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/18.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/19.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-8.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-9.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-12.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-13.png\" width = 16%></img>
-
-  description: "
-                   <ul>
-                     <li>
-                       Propose a novel physics-based geometric modeling method --- Dynamic Ball B-Spline Curves, also called D-BBSC.
-                       Prove mathematical properties of D-BBSC and derive the motion equations of D-BBSC.
-                     </li>
-                     <li>
-                       Implement a D-BBSC physical simulation system based on finite difference method.
-                     </li>
-                    <li>
-                      Paper &quot;<b>Dynamic Ball B-Spline Curves</b>&quot; is going to be submitted.
-                    </li>
-                     <li>
-                       Tools: C++, OpenGL, Qt
-                     </li>
-                   </ul>
-                  "
-
-- project: Dynamic Disk B-Spline Curves
-  role: Personal Research (Advisor &colon; Zhongke Wu)
-  duration: 2018 &mdash; Present
-  url: "https://yucrazing.github.io/2019/06/01/Dynamic-Disk-B-Spline-Curves.html"
-  description: "
-                  <ul>
-                    <li>
-                      Propose a novel physics-based geometric modeling method --- Dynamic Disk B-Spline Curves, also called D-DBSC.
-                      Prove mathematical properties of D-DBSC and derive the motion equations of D-DBSC.
-                    </li>
-                    <li>
-                      Implement a D-DBSC physical simulation system based on finite difference method.
-                    </li>
-                    <li>
-                      Paper &quot;<b>Dynamic Disk B-Spline Curves</b>&quot; is submitted to <i>Shape Modeling International</i> (SMI 2020).
-                    </li>
-                    <li>
-                      Tools: C++, OpenGL, Qt
-                    </li>
-                  </ul>
-                 "
-
-- project: Computer Graphics Assignments Design
-  role: Personal Project
-  duration: 2017 &mdash; 2017
-  url: "https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html"
-  description: "
-                  <ul>
-                    <li>
-                       Design a series of procedures for Beijing Normal University undergraduate computer graphics course.
-                    </li>
-                    <li>
-                      Includes (partial):
-                      <ul>
-                        <li>Modern OpenGL tutorial</li>
-                        <li>Mesh subdivision</li>
-                        <li>Light models</li>
-                        <li>Curves and surfaces</li>
-                        <li>Physical simulation</li>
-                        <li>Ray tracing</li>
-                      </ul>
-                    </li>
-                    <li>Tools: C++, OpenGL4.0, Qt</li>
-                  </ul>
-                 "
-
 - project: Vascular Fitting System Based on Ball B-Spline Curves
   role: Personal Project
-  duration: 2017 &mdash; 2017
+  duration: 2017
   url: "https://yucrazing.github.io/2018/06/01/Vascular-Fitting-System-Based-on-Ball-B-Spline-Curves.html"
   description: "
                   <ul>
@@ -121,5 +62,29 @@
                     <li>
                       Tools: C++, OpenGL, Qt
                     </li>
+                  </ul>
+                 "
+
+- project: Computer Graphics Assignments Design
+  role: Personal Project
+  duration: 2017
+  url: "https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html"
+  description: "
+                  <ul>
+                    <li>
+                       Design a series of procedures for Beijing Normal University undergraduate computer graphics course.
+                    </li>
+                    <li>
+                      Includes (partial):
+                      <ul>
+                        <li>Modern OpenGL tutorial</li>
+                        <li>Mesh subdivision</li>
+                        <li>Lighting models</li>
+                        <li>Curves and surfaces</li>
+                        <li>Physical simulation</li>
+                        <li>Ray tracing</li>
+                      </ul>
+                    </li>
+                    <li>Tools: C++, OpenGL4.0, Qt</li>
                   </ul>
                  "
