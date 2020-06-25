@@ -7,7 +7,7 @@
   url: "https://github.com/YuCrazing/Taichi/tree/master/fem_3d"
   description: "
                   <ul>
-                  <li>An implementation of 3D FEM, with:</li>
+                  <li>An implementation of 3D Finite Element Method (FEM), with:</li>
                         <ul>
                           <li>Hyperelasticity model</li>
                           <li>Linear tetrahedral finite elements</li>
