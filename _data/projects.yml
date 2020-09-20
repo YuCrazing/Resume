@@ -1,90 +1,72 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: An implementation of explicit 3D FEM using tetrahedral elements
+- project: GAMES 201 Course Projects
   role: Personal Project
   duration: June, 2020
-  url: "https://github.com/YuCrazing/Taichi/tree/master/fem_3d"
   description: "
-                  <ul>
-                  <li>An implementation of 3D Finite Element Method (FEM), with:</li>
-                        <ul>
-                          <li>Hyperelasticity model</li>
-                          <li>Linear tetrahedral finite elements</li>
-                          <li>Semi-implicit Euler time integration</li>
-                        </ul>
-                  <li>Tools: Python, Taichi</li>
-                  </ul>
-                 "
+                This project includes implementations of Course <a href='https://forum.taichi.graphics/'> GAMES 201: 高级物理引擎实战指南2020 </a>.
+                I implement almost all algorithms mentioned in this course, these algorithms include:
+                Euler fluid methods; Hybrid fluid methods: PIC (Particle-In-Cell), APIC (Affine Particle-In-Cell), FLIP (Fluid Implicit Particles), MPM (Material Point Method); 3D implicit FEM (Finite Element Method); Vortex methods;
+                Several numerical methods: Conjugate Gradients, Multigrid Methods. All procedurals are implemented in Taichi Programming Language.
+                See Code link for more details.
+  "
+  img: "images/projects/taichi/fem.gif"
 
-- project: Story Generation using CVAE with Discriminator
-  role: Team Project (with <a href="https://github.com/linxiaoby">@linxiaoby</a>)
-  duration: Jan, 2020  &mdash; May, 2020
-#  url: "#"
-  description: "
-                  <ul>
-                  <li>Use Conditional Variational AutoEncoder (CVAE) with discriminator in story generation tasks.</li>
-                  <li>Tools: Python, Tensorflow, Linux</li>
-                  </ul>
-                 "
+  urls: "
+    <a class='fancy-link' href='https://github.com/YuCrazing/Taichi'>Code</a>
+    <a class='fancy-link' href='https://github.com/YuCrazing/Taichi'>Gallery</a>
+  "
 
-- project: Real-Time Fluid Simulation in Games
+# - project: Story Generation using CVAE with Discriminator
+#   role: Team Project (with <a href="https://github.com/linxiaoby">@linxiaoby</a>)
+#   duration: Jan, 2020  &mdash; May, 2020
+# #  url: "#"
+#   description: "
+#                   <ul>
+#                   <li>Use Conditional Variational AutoEncoder (CVAE) with discriminator in story generation tasks.</li>
+#                   <li>Tools: Python, Tensorflow, Linux</li>
+#                   </ul>
+#                  "
+
+- project: Real-Time Fluid Simulation In Games
   role: Personal Project (Advisor &colon; Xiaosheng Li)
   duration: Jul, 2019  &mdash; Sep, 2019
-  url: "https://yucrazing.github.io/2019/09/01/SPH-Fluid-Simulation.html"
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/SPH-Water/MCFinalRendering.gif\" width = 30%></img>
   description: "
-                  <ul>
-                  <li>Reimplement, compare and optimize the SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids) methods on PC and mobile.</li>
-                  <li>Fluid surface is rendering by two method: Marching Cubes and SSFR (Screen Space Fluid Rendering).</li>
-                  <li>Performance (with rendering):
-                    <ul>
-                    <li>64k particles, 30FPS on PC (GTX 750Ti)</li>
-                    <li>5k particles, 30FPS on mobile (Xiaomi6)</li>
-                    </ul>
-                  </li>
-                  <li>Tools: C++, OpenGL, Vulkan, Compute Shader in Unity</li>
-                  </ul>
-                 "
+                This is a comprehensive pre-research project which finished during my internship in NetEase Games, with instructor <a href='https://www.linkedin.com/in/xiaosheng-li-54aa0484/?originalSubdomain=cn'>Xiaosheng Li </a>.
+                This project aims to explore the possibility of achieving real-time interactive fluid simulations in desktop and mobile games.
+                Two popular Lagrangian methods, SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids), are implemented on PC and cell phones respectively, and their performance are compared.
+                For free-surface rendering, two methods are implemented and compared: Marching Cubes and SSFR (Screen Space Fluid Rendering). 
+                This project is implemented by Unity Compute Shader and runs fully on GPU. See Slides link for more details.
+  "
+  img: "images/projects/sph_pbf/two-1.gif"
+  urls: "
+  <a class='fancy-link' href='slides/sph_pbf_yuzhang.pdf'>Slides</a>
+  <a class='fancy-link' href='https://yucrazing.github.io/2019/09/01/SPH-Fluid-Simulation.html'>Gallery</a>
+  "
 
-- project: Vascular Fitting System Based on Ball B-Spline Curves
+
+- project: Vascular Fitting System
   role: Personal Project
   duration: 2017
   url: "https://yucrazing.github.io/2018/06/01/Vascular-Fitting-System-Based-on-Ball-B-Spline-Curves.html"
   description: "
-                  <ul>
-                    <li>
-                      Develop a software for visualizing, editing, and fitting 3D vascular data.
-                    </li>
-                    <li>
-                      This software is used by Beijing Normal University VR Laboratory.
-                    </li>
-                    <li>
-                      Tools: C++, OpenGL, Qt
-                    </li>
-                  </ul>
-                 "
+                A vascular fitting system for visualizing, editing and fitting 3D vascular data.
+                This software is developed during my first year of graduate, and it is currently used by Virtual Reality and Visualization Lab of Beijing Normal University.
+                This system is mainly based on Dynamic Ball B-Spline Curves and is implemented by Qt / C++ / OpenGL.
+  "
+  img: "images/projects/vascular_system/vessels_0.jpg"
 
-- project: Computer Graphics Assignments Design
+  urls: "<a class='fancy-link' href='https://yucrazing.github.io/2018/06/01/Vascular-Fitting-System-Based-on-Ball-B-Spline-Curves.html'>Gallery</a>"
+
+
+- project: Computer Graphics Course Assistant
   role: Personal Project
   duration: 2017
-  url: "https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html"
   description: "
-                  <ul>
-                    <li>
-                       Design a series of procedures for Beijing Normal University undergraduate computer graphics course.
-                    </li>
-                    <li>
-                      Includes (partial):
-                      <ul>
-                        <li>Modern OpenGL tutorial</li>
-                        <li>Mesh subdivision</li>
-                        <li>Lighting models</li>
-                        <li>Curves and surfaces</li>
-                        <li>Physical simulation</li>
-                        <li>Ray tracing</li>
-                      </ul>
-                    </li>
-                    <li>Tools: C++, OpenGL4.0, Qt</li>
-                  </ul>
+                  Design a series of assignments for Beijing Normal University undergraduate computer graphics course.
+                  The content of the assignments includes: Modern OpenGL tutorial, Basic shading modes, Mesh subdivision, Curves and surfaces, Physical simulation and Simple ray tracing.
+                  These procedures are based on Qt C++ framework and use the OpenGL 4.0 APIs.
                  "
+  img: "images/projects/course_assistant/raytracing_1.png"
+  urls: "<a class='fancy-link' href='https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html'>Gallery</a>"

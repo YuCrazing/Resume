@@ -2,68 +2,34 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 - publication: Dynamic Ball B-Spline Curves
-  role: Personal Research (Advisor &colon; Zhongke Wu)
-  duration: 2018 &mdash; Present
-  url: "https://yucrazing.github.io/2019/10/25/Dynamic-Ball-B-Spline-Curves.html"
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/18.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/19.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-8.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-9.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-12.png\" width = 16%></img>
-#                    <img src = \"https://yucrazing.github.io/assets/imgs/Resume-Appendix/D-BBSC/c-13.png\" width = 16%></img>
+  role: YuZhang, Zhongke Wu*, Xingce Wang
+  # duration: 2018 &mdash; Present
+  img: "images/publications/D-BBSC/palm-paper-0.jpg"
+  journal: "Submitted to Journal of Computational and Applied Mathematics"
+  urls: "
+        <a class='fancy-link' href='https://yucrazing.github.io/2019/10/25/Dynamic-Ball-B-Spline-Curves.html'>Video</a>
+      "
+
   description: "
-                  <ul>
-                    <li>
-                      Submitted to <i>Journal of Computational and Applied Mathematics</i>.
-                    </li>
-                  </ul>
+
+                      
+
                  "
-#  description: "
-#                   <ul>
-#                     <li>
-#                       Propose a novel physics-based geometric modeling method --- Dynamic Ball B-Spline Curves, also called D-BBSC.
-#                       Prove mathematical properties of D-BBSC and derive the motion equations of D-BBSC.
-#                     </li>
-#                     <li>
-#                       Implement a D-BBSC physical simulation system based on finite difference method.
-#                     </li>
-#                    <li>
-#                      Paper &quot;<b>Dynamic Ball B-Spline Curves</b>&quot; is going to be submitted.
-#                    </li>
-#                     <li>
-#                       Tools: C++, OpenGL, Qt
-#                     </li>
-#                   </ul>
-#                  "
 
 - publication: Dynamic Disk B-Spline Curves
-  role: Personal Research (Advisor &colon; Zhongke Wu)
-  duration: 2018 &mdash; Present
-  url: "https://yucrazing.github.io/2019/06/01/Dynamic-Disk-B-Spline-Curves.html"
+  role: YuZhang, Zhongke Wu*, Xingce Wang
+  # duration: 2018 &mdash; Present
+  journal: "33rd International Conference on Computer Animation and Social Agents Special Issues (CASA 2020) <br> Published on Computer Animation and Virtual Worlds (CAVW)"
+  img: "images/publications/D-DBSC/horse.png"
+  urls: "
+        <a class='fancy-link' href='papers/D-DBSC.pdf'>Paper</a> &nbsp
+        <a class='fancy-link' href='https://yucrazing.github.io/2019/06/01/Dynamic-Disk-B-Spline-Curves.html'>Gallery</a>
+      "
   description: "
-                  <ul>
-                    <li>
-                      Accepted by <i>33rd International Conference on Computer Animation and Social Agents</i> (CASA 2020).
-                    </li>
-                    <li>
-                      This paper will be published on <i>Computer Animation and Virtual Worlds</i> (CAVW).
-                    </li>
-                  </ul>
-                 "
-#  description: "
-#                  <ul>
-#                    <li>
-#                      Propose a novel physics-based geometric modeling method --- Dynamic Disk B-Spline Curves, also called D-DBSC.
-#                      Prove mathematical properties of D-DBSC and derive the motion equations of D-DBSC.
-#                    </li>
-#                    <li>
-#                      Implement a D-DBSC physical simulation system based on finite difference method.
-#                    </li>
-#                    <li>
-#                      Paper &quot;<b>Dynamic Disk B-Spline Curves</b>&quot; is submitted to <i>Shape Modeling International</i> (SMI 2020).
-#                    </li>
-#                    <li>
-#                      Tools: C++, OpenGL, Qt
-#                    </li>
-#                  </ul>
-#                 "
+                A disk B-spline curve (DBSC) is an extension of a B-spline curve and is used to represent a 2D region.
+                       DBSC is a useful 2D geometric representation and is widely applied in the 2D art design area, such as computer calligraphy, 2D computer animation, and nonphotorealistic rendering.
+                        To enhance the flexibility of DBSC, in this paper, we propose a physics-based generalization of DBSC -- Dynamic DBSC (D-DBSC), which extends the traditional DBSC in the time domain.
+                         We give the mathematical expression of D-DBSC and prove its several mathematical properties.
+                          We derive the motion equations of D-DBSC based on Lagrangian mechanics and investigate the motion equations when it is under linear geometric constraints.
+                           Last, a D-DBSC physical simulation system based on finite difference method is presented. 
+                "

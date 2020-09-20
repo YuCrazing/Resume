@@ -1,6 +1,6 @@
 # Site settings
-title: "YuCrazing's Resume"
-description: "Personal resume"
+title: "Yu Zhang - Homepage"
+description: "Personal homepage"
 
 # Build settings
 markdown: kramdown
@@ -9,8 +9,8 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Yu Zhang | 张宇"
+resume_avatar:                  "images/avatar-5.jpg"
+resume_name:                    "Yu Zhang (张宇)"
 resume_title:                   "About Me"
 
 # used for the contact button in _layouts/resume.html
@@ -20,13 +20,13 @@ resume_contact_email:           "yucrazing@mail.bnu.edu.cn"
 resume_contact_telephone:       "#"
 resume_contact_address:         "Beijing Normal University"
 
-resume_header_contact_info:     "<font size=2>No.19, Xinjiekouwai St, Haidian District, Beijing • Beijing Normal University • yucrazing@mail.bnu.edu.cn</font>"
+resume_header_contact_info:     "<font size=2>yucrazing@mail.bnu.edu.cn <br> Beijing Normal University,  No.19 Xinjiekouwai St, Haidian District, Beijing  <br> </font>"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>
-                            I am a postgraduate at the Department of Computer Science and Technology in Beijing Normal University.
-                            My research interests are in computer graphics and my mentor is Professor Zhongke Wu.
-                            On schedule, I will graduate in July 2020 and join Tencent Games then.
+resume_header_intro: "<p >
+                            I am a game engine engineer of Tencent Games.
+                            I received my bachelor and master's degrees from the Department of Computer Science and Technology, Beijing Normal University.
+                            My research interests are in computer graphics and my mentor is Prof. Zhongke Wu.
                         </p>"
 
 # use "yes" to display the email contact button,
@@ -38,15 +38,16 @@ resume_header_intro: "<p>
 
 # Decide which sections to use
 # comment out to hide
-resume_section_education:       true
+resume_section_education:       false
 resume_section_experience:      true
-resume_section_publications: true
+resume_section_publications:    true
 resume_section_projects:        true
-resume_section_skills:          true
+resume_section_skills:          false
 resume_section_recognition:     false
 resume_section_links:           false
 resume_section_associations:    false
 resume_section_interests:       false
+resume_section_applications:    true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
@@ -57,7 +58,7 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
 #  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://yucrazing.github.io/resume/"
+  # resume_website_url:           "https://yucrazing.github.io/resume/"
 #  resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 

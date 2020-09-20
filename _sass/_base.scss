@@ -11,9 +11,9 @@ html {
 }
 
 body{
-  @include serif;
+  @include sans;
   color: $text_color;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -21,7 +21,7 @@ body{
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
 .wrapper {
-  max-width: 728px;
+  max-width: 1200px;
   padding: 0 24px;
   margin: 0 auto;
   zoom: 1;
@@ -43,4 +43,26 @@ body{
     background: rgba(51,51,51,.8);
     color: #fff;
     text-shadow: none;
+}
+
+
+.a{
+  color: green;
+}
+
+.fancy-link:link, .fancy-link:visited {
+  background-color: white;
+  color: rgba(92, 131, 236, 0.8);
+  border: 1px solid rgba(92, 131, 236, 0.8);
+  border-radius: 5px;
+  padding: 3px 10px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fancy-link:hover, .fancy-link:active {
+  background-color: green;
+  color: white;
 }

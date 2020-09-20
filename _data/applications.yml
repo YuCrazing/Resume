@@ -1,0 +1,23 @@
+
+# Applications
+
+- application: ASCII ART
+  description: "
+                Convert pictures to ASCII characters.
+  "
+  img: "images/applications/ascii_art/ascii_art_1.png"
+  url: "https://yucrazing.github.io/game/2017/05/08/ascii-art.html"
+
+# - application: MAZE
+#   description: "
+#                 Generate random mazes.
+#   "
+#   img: "images/applications/maze/maze.png"
+#   url: "https://yucrazing.github.io/game/2017/04/20/Maze.html"
+
+- application: 3 PLAYER GOMOKU
+  description: "
+                GOMOKU (五子棋) for 3 players.
+  "
+  img: "images/applications/gomoku/3_player_gomoku_preview_clip.png"
+  url: "https://github.com/YuCrazing/3-Player-Gomoku"
