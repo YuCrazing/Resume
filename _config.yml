@@ -26,7 +26,9 @@ display_header_contact_info:    "true"
 resume_header_intro: "<p >
                             I am a game engine engineer of Tencent Games.
                             I received my bachelor and master's degrees from the Department of Computer Science and Technology, Beijing Normal University.
-                            My research interests are in computer graphics and my mentor is Prof. Zhongke Wu.
+                            Advised by Prof. Zhongke Wu.
+                            <br>
+                            My research interests are in computer graphics, include: physics-based animation, real-time rendering.
                         </p>"
 
 # use "yes" to display the email contact button,
@@ -47,7 +49,8 @@ resume_section_recognition:     false
 resume_section_links:           false
 resume_section_associations:    false
 resume_section_interests:       false
-resume_section_applications:    true
+resume_section_applications:    false
+resume_section_gallery:         true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

@@ -94,7 +94,7 @@
 
               <table style="border-spacing: 40px 0;">
                 <tr style="vertical-align: top;">
-                  <td width="50%">
+                  <td width="55%">
                       <h2> Experience</h2>
                     <div style="line-height: 1.0; display: block;" class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
                       {% for job in site.data.experience %}
@@ -105,7 +105,7 @@
                       {% endfor %}
                       </div><!-- end of resume-item -->
                   </td>
-                  <td width="50%">
+                  <td>
                       <h2>Awards</h2>
                     <div style="line-height: 1.0; display: block;" class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
                       {% for award in site.data.awards %}
@@ -128,7 +128,7 @@
 
           <table>
                {% for publication in site.data.publications %}
-               <tr style="">
+               <tr>
                 <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
                       <td width="30%" style="text-align: center;vertical-align: top;">
                           {% if publication.img %} <img src="{{ publication.img }}"  width="80%" style="vertical-align: top"> {% endif %}
@@ -191,6 +191,30 @@
       <!-- end Projects -->
       {% endif %}
 
+      {% if site.resume_section_gallery %}
+      <!-- begin Gallery -->
+      <section class="content-section">
+        <header class="section-header" style="margin: 0 0;">
+          <!-- <p style="margin: 0 0;">Online Toys</p> -->
+          <h2>Gallery</h2>
+        </header>
+          <table style="margin: 0 0;border-spacing: 10px 0;">
+            <tr>
+               {% for img in site.data.gallery %}
+                  <td style="vertical-align: bottom;">
+                    <div style="text-align: center; display: block; height: 140px; margin: 0 0;" itemscope itemtype="http://schema.org/CreativeWork">
+                        
+                        <a style="color: green; text-decoration: none; font-weight: bold; font-size: large;" href=" {{ img.url }}"> <img src="{{ img.img }}" height="100%"> </a>
+                    </div>
+                  </td> 
+              {% endfor %}
+            </tr>
+        <table>
+      </section>
+
+      <!-- end Gallery -->
+      {% endif %}
+
       {% if site.resume_section_applications %}
       <!-- begin Applications -->
       <section class="content-section">
@@ -198,7 +222,7 @@
           <!-- <p style="margin: 0 0;">Online Toys</p> -->
           <h2>Online Toys</h2>
         </header>
-          <table style="margin: 0 0;border-spacing: 10px 0;">
+          <table style="margin: 0 0;border-spacing: 0px 0;">
             <tr>
                {% for application in site.data.applications %}
                   <td style="vertical-align: bottom;">

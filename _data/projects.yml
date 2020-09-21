@@ -33,13 +33,13 @@
   role: Personal Project (Advisor &colon; Xiaosheng Li)
   duration: Jul, 2019  &mdash; Sep, 2019
   description: "
-                This is a comprehensive pre-research project which finished during my internship in NetEase Games, with instructor <a href='https://www.linkedin.com/in/xiaosheng-li-54aa0484/?originalSubdomain=cn'>Xiaosheng Li </a>.
+                This pre-research project was finished during my internship in NetEase Games, with advisor <a href='https://www.linkedin.com/in/xiaosheng-li-54aa0484/?originalSubdomain=cn'>Xiaosheng Li </a>.
                 This project aims to explore the possibility of achieving real-time interactive fluid simulations in desktop and mobile games.
-                Two popular Lagrangian methods, SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids), are implemented on PC and cell phones respectively, and their performance are compared.
+                Two popular Lagrangian methods, SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids), are implemented on both PC and cell phones, and their performance are compared.
                 For free-surface rendering, two methods are implemented and compared: Marching Cubes and SSFR (Screen Space Fluid Rendering). 
-                This project is implemented by Unity Compute Shader and runs fully on GPU. See Slides link for more details.
+                This project is implemented by Unity Compute Shader and fully runs on GPU. See Slides link for more details.
   "
-  img: "images/projects/sph_pbf/two-1.gif"
+  img: "images/projects/sph_pbf/two-2.gif"
   urls: "
   <a class='fancy-link' href='slides/sph_pbf_yuzhang.pdf'>Slides</a>
   <a class='fancy-link' href='https://yucrazing.github.io/2019/09/01/SPH-Fluid-Simulation.html'>Gallery</a>
@@ -68,5 +68,5 @@
                   The content of the assignments includes: Modern OpenGL tutorial, Basic shading modes, Mesh subdivision, Curves and surfaces, Physical simulation and Simple ray tracing.
                   These procedures are based on Qt C++ framework and use the OpenGL 4.0 APIs.
                  "
-  img: "images/projects/course_assistant/raytracing_1.png"
+  img: "images/projects/course_assistant/raytracing_1.jpg"
   urls: "<a class='fancy-link' href='https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html'>Gallery</a>"
