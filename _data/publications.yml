@@ -23,7 +23,6 @@
   img: "images/publications/D-DBSC/horse.png"
   urls: "
         <a class='fancy-link' href='papers/D-DBSC.pdf'>Paper</a> &nbsp
-        <a class='fancy-link' href='https://yucrazing.github.io/2019/06/01/Dynamic-Disk-B-Spline-Curves.html'>Gallery</a>
       "
   description: "
                 A disk B-spline curve (DBSC) is an extension of a B-spline curve and is used to represent a 2D region.
