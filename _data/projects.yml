@@ -1,6 +1,23 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: Path Tracing
+  role: Personal Project
+  duration: June, 2020
+  description: "
+                This project implements BRDF model using path tracing (I will expand this project to BSSRDF model in the future).
+                In Monte Carlo integration, an uniform sampling is used, and direct / indirect light sources are sampled separately to improve rendering quality.
+                Moreover, a Russian Roulette scheme is used when casting ray recursively.
+                In this project, a bounding volume hierarchy (BVH) data structure is used to accelerate querying ray-triangle intersection.
+                This project is inspired by Course <a href='https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html'> GAMES 101</a>.
+
+  "
+  img: "images/projects/path_tracing/binary-spp16-long.jpg"
+
+  urls: "
+    <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
+  "
+
 - project: GAMES 201 Course Projects
   role: Personal Project
   duration: June, 2020
@@ -63,9 +80,9 @@
   role: Personal Project
   duration: 2017
   description: "
-                  Design a series of assignments for Beijing Normal University undergraduate computer graphics course.
+                  Design assignments for Beijing Normal University undergraduate computer graphics course.
                   The content of the assignments includes: Modern OpenGL tutorial, Basic shading modes, Mesh subdivision, Curves and surfaces, Physical simulation and Simple ray tracing.
                   These procedures are based on Qt C++ framework and use the OpenGL 4.0 APIs.
                  "
-  img: "images/projects/course_assistant/raytracing_1.jpg"
+  img: "images/projects/course_assistant/3.png"
   urls: "<a class='fancy-link' href='https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html'>Gallery</a>"
