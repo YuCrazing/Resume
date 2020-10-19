@@ -5,7 +5,7 @@
   role: Personal Project
   duration: June, 2020
   description: "
-                This project implements BRDF model using path tracing (I will expand this project to BSSRDF model in the future).
+                This project implements BRDF model using path tracing (I am considering to expand this project to BSSRDF model in the future).
                 In Monte Carlo integration, an uniform sampling is used, and direct / indirect light sources are sampled separately to improve rendering quality.
                 Moreover, a Russian Roulette scheme is used when casting ray recursively.
                 In this project, a bounding volume hierarchy (BVH) data structure is used to accelerate querying ray-triangle intersection.
