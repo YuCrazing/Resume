@@ -30,5 +30,5 @@
                         To enhance the flexibility of DBSC, in this paper, we propose a physics-based generalization of DBSC -- Dynamic DBSC (D-DBSC), which extends the traditional DBSC in the time domain.
                          We give the mathematical expression of D-DBSC and prove its several mathematical properties.
                           We derive the motion equations of D-DBSC based on Lagrangian mechanics and investigate the motion equations when it is under linear geometric constraints.
-                           Last, a D-DBSC physical simulation system based on finite difference method is presented. 
+                           Last, a D-DBSC physical simulation system based on the finite difference method is presented. 
                 "
