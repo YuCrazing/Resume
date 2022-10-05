@@ -5,10 +5,10 @@
   role: Company Project
   duration: Aug, 2021
   description: "
-                This project aims to develop a high-performance PBD physics engine, which is similar to Houdini Vellum. The engine supports a series of materials' simulation: rigid body, soft body, fluid, cloth, granular material, etc. 
+                This project aims to develop a high-performance PBD (position-based dynamics) physics engine, which is similar to Houdini Vellum. The engine supports a series of materials' simulation: rigid body, soft body, fluid, cloth, granular material, etc. 
                 We achieve <a href='https://twitter.com/TaichiGraphics/status/1537193238632599552'>a 60 FPS's 240k particles fluid simulation</a>, and the simulation can be extended to a large-scale scene (there are 20 million particles in the picture on the right side).
                 To obtain a high-quality fluid surface, we implement a surface reconstruction algorithm based on dual contouring.
-                In this project, we also use a Continuous collision detection (CCD) algorithm to tackle the tricky collision problem. 
+                In this project, we also use a CCD (Continuous collision detection) algorithm to tackle the tricky collision problem. 
   "
   img: "images/projects/taichi_particles/pbf.png"
 
@@ -21,7 +21,7 @@
   role: Personal Project
   duration: Aug, 2021
   description: "
-                This plugin simulates smoothed-particle hydrodynamics (SPH) linear elasticity deformable objects and fluids in the Unreal Engine (UE) game engine. 
+                This plugin simulates SPH (smoothed-particle hydrodynamics) linear elasticity deformable objects and fluids in the UE (Unreal Engine) game engine. 
                 We implement several linear algebra algorithms in (high-level shader language) HLSL, for example, a HLSL version's 3x3 SVD algorithm.
                 To our knowledge, we are the first ones who implement these algorithms in HLSL.
                 The major reference for this project is the SPH-related papers mentioned in Jan Bender's SPH Eurographics course.
@@ -56,7 +56,7 @@
                 This project achieves a BRDF model renderer based on path tracing (I am considering expanding this project to the BSSRDF model in the future).
                 In Monte Carlo integration, uniform sampling is used, and direct/indirect light sources are sampled separately to improve rendering quality.
                 Moreover, a Russian Roulette scheme is used when casting rays recursively.
-                In this project, a bounding volume hierarchy (BVH) data structure is used to accelerate querying ray-triangle intersection.
+                In this project, a BVH (bounding volume hierarchy) data structure is used to accelerate querying ray-triangle intersection.
                 This project is inspired by the course <a href='https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html'> GAMES 101</a>.
 
   "
@@ -90,7 +90,7 @@
 # #  url: "#"
 #   description: "
 #                   <ul>
-#                   <li>Use Conditional Variational AutoEncoder (CVAE) with discriminator in story generation tasks.</li>
+#                   <li>Use CAVE (Conditional Variational AutoEncoder) with discriminator in story generation tasks.</li>
 #                   <li>Tools: Python, Tensorflow, Linux</li>
 #                   </ul>
 #                  "
