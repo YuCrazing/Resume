@@ -130,7 +130,7 @@
   role: Personal Project
   duration: 2017
   description: "
-                  Assignments for Beijing Normal University undergraduate computer graphics course.
+                  I design assignments for Beijing Normal University undergraduate computer graphics course.
                   The content includes a modern OpenGL tutorial, basic shading modes, mesh subdivision, curves and surfaces, physical simulation, and simple ray tracing.
                   These procedures are based on Qt C++ framework and use the OpenGL 4.0 APIs.
                  "
