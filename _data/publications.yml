@@ -2,10 +2,10 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 - publication: Dynamic Ball B-Spline Curves
-  role: YuZhang, Zhongke Wu*, Xingce Wang
+  role: Ciyang Zhou, <b>Yu Zhang</b>, Zhongke Wu*, Xingce Wang
   # duration: 2018 &mdash; Present
   img: "images/publications/D-BBSC/palm-paper-0.jpg"
-  journal: "Under submission."
+  journal: "Computer Graphics International 2023 (CGI 2023)"
   urls: "
         <a class='fancy-link' href='https://yucrazing.github.io/2019/10/25/Dynamic-Ball-B-Spline-Curves.html'>Video</a>
       "
@@ -17,7 +17,7 @@
                  "
 
 - publication: Dynamic Disk B-Spline Curves
-  role: YuZhang, Zhongke Wu*, Xingce Wang
+  role: <b>Yu Zhang</b>, Zhongke Wu*, Xingce Wang
   # duration: 2018 &mdash; Present
   journal: "33rd International Conference on Computer Animation and Social Agents Special Issues (CASA 2020) <br> Published on Computer Animation and Virtual Worlds (CAVW) &nbsp <a  href='https://onlinelibrary.wiley.com/toc/1546427x/2020/31/4-5'>(Selected as the image of inside cover)</a>"
   img: "images/publications/D-DBSC/horse.png"

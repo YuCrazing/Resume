@@ -1,23 +1,34 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- project: Soft2D
+  role: Company Project
+  duration: May, 2023
+  description: "
+                <a href='https://www.soft2d.tech/'>Soft2D</a> is a 2D multi-material continuum physics engine designed for real-time applications. 
+                With soft2d, users can simulate various materials such as fluids, sand, snow, and elastic bodies within their applications. Soft2D runs on GPU, and currently supports Vulkan and Metal backends.
+                For user convenience, we offer a comprehensive suite of easy-to-use interfaces in C language. Please see the <a href='https://docs.soft2d.tech/'>user documentation</a> for more details. 
+                We also provide a free-to-access unity plugin - <a href='https://github.com/taichi-dev/soft2d-for-unity'>Soft2D for Unity</a>, which allows users to build simulation scenes in a low-code way.
+  "
+  img: "images/projects/soft2d/soft2d.gif"
+
 - project: High-Performance PBD Engine
   role: Company Project
   duration: Aug, 2021
   description: "
                 This project aims to develop a high-performance PBD (position-based dynamics) physics engine, which is similar to Houdini Vellum. The engine supports a series of materials' simulation: rigid body, soft body, fluid, cloth, granular material, etc. 
-                We achieve <a href='https://twitter.com/TaichiGraphics/status/1537193238632599552'>a 60 FPS's 240k particles fluid simulation</a>, and the simulation can be extended to a large-scale scene (there are 20 million particles in the picture on the right side).
+                We achieve <a href='https://twitter.com/TaichiGraphics/status/1537193238632599552'>a 60 FPS's 240k particles fluid simulation</a>, and the simulation can be extended to <a href='https://twitter.com/taichi_lang/status/1593148740105568256'>a large-scale scene</a> (there are 20 million particles in the picture on the right side).
                 To obtain a high-quality fluid surface, we implement a surface reconstruction algorithm based on dual contouring.
                 In this project, we also use a CCD (Continuous collision detection) algorithm to tackle the tricky collision problem. 
   "
-  img: "images/projects/taichi_particles/pbf.png"
+  img: "images/projects/taichi_particles/statue.png"
 
   # urls: "
   #   <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
   # "
 
 
-- project: Unreal SPH Plugin
+- project: Unreal Engine SPH Plugin
   role: Personal Project
   duration: Aug, 2021
   description: "
@@ -75,7 +86,7 @@
                 I complete almost all algorithms mentioned in this course, these algorithms include:
                 Euler fluid methods; Hybrid fluid methods: PIC (Particle-In-Cell), APIC (Affine Particle-In-Cell), FLIP (Fluid Implicit Particles), MPM (Material Point Method); 3D implicit FEM (Finite Element Method); Vortex methods;
                 Several numerical methods: Conjugate Gradients, Multigrid Methods. All procedures are written in the Taichi programming language.
-                See Code link for more details.
+                Click 'Code' link for more details.
   "
   img: "images/projects/taichi/fem.gif"
 
@@ -104,7 +115,7 @@
                 This project aims to explore the possibility of achieving real-time interactive fluid simulations in desktop and mobile games.
                 Two popular Lagrangian methods, SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids), are achieved on both PC and cell phones, and their performance is compared.
                 For free-surface rendering, two rendering methods are implemented and compared: Marching Cubes and SSFR (Screen Space Fluid Rendering). 
-                This project is written by Unity compute shader and fully runs on GPU. See Slides link for more details.
+                This project is written by Unity compute shader and fully runs on GPU. Click 'Slides' link for more details.
   "
   img: "images/projects/sph_pbf/two-2.gif"
   urls: "
