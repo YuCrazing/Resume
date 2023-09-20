@@ -11,6 +11,9 @@
                 We also provide a free-to-access unity plugin - <a href='https://github.com/taichi-dev/soft2d-for-unity'>Soft2D for Unity</a>, which allows users to build simulation scenes in a low-code way.
   "
   img: "images/projects/soft2d/soft2d.gif"
+  urls: "
+    <a class='fancy-link' href='https://www.soft2d.tech/'>Website</a>
+  "
 
 - project: High-Performance PBD Engine
   role: Company Project
@@ -39,9 +42,9 @@
   "
   img: "images/projects/sph_ue4/sph_softbody.gif"
 
-  # urls: "
-  #   <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
-  # "
+  urls: "
+    <a class='fancy-link' href='https://github.com/YuCrazing/UE-SPH-Plugin'>Code</a>
+  "
 
 
 - project: Unity Stable Fluids Plugin
