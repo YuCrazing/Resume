@@ -1,5 +1,17 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
+- project: Stable Fluids 3D
+  role: Personal Project
+  duration: Aug, 2023
+  description: "
+                A single-file implementation of 3D stable fluids.
+  "
+  img: "images/projects/stable_fluids_3d/ink-animation.gif"
+
+  urls: "
+    <a class='fancy-link' href='https://github.com/YuCrazing/stable-fluids-3d'>Code</a>
+    <a class='fancy-link' href='https://www.youtube.com/watch?v=yHe8xkoV5y4'>Video</a>
+  "
 
 - project: Soft2D
   role: Company Project
@@ -26,10 +38,6 @@
   "
   img: "images/projects/taichi_particles/statue.png"
 
-  # urls: "
-  #   <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
-  # "
-
 
 - project: Unreal Engine SPH Plugin
   role: Personal Project
@@ -40,7 +48,7 @@
                 To our knowledge, we are the first ones who implement these algorithms in HLSL.
                 The major reference for this project is the SPH-related papers mentioned in Jan Bender's SPH Eurographics course.
   "
-  img: "images/projects/sph_ue4/sph_softbody.gif"
+  img: "images/projects/sph_ue4/sph_softbody_compressed.gif"
 
   urls: "
     <a class='fancy-link' href='https://github.com/YuCrazing/UE-SPH-Plugin'>Code</a>
@@ -120,7 +128,7 @@
                 For free-surface rendering, two rendering methods are implemented and compared: Marching Cubes and SSFR (Screen Space Fluid Rendering). 
                 This project is written by Unity compute shader and fully runs on GPU. Click 'Slides' link for more details.
   "
-  img: "images/projects/sph_pbf/two-2.gif"
+  img: "images/projects/sph_pbf/two-3.gif"
   urls: "
   <a class='fancy-link' href='slides/sph_pbf_yuzhang.pdf'>Slides</a>
   "
