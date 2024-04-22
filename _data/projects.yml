@@ -25,6 +25,7 @@
   img: "images/projects/soft2d/soft2d.gif"
   urls: "
     <a class='fancy-link' href='https://www.soft2d.tech/'>Website</a>
+    <a class='fancy-link' href='https://github.com/taichi-dev/soft2d-release'>Github</a>
   "
 
 - project: High-Performance PBD Engine
