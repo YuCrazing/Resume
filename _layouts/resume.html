@@ -144,6 +144,11 @@
                         </td>
                          <td width="30%" style="text-align: center;vertical-align: top;">
                             {% if project.img %} <img src="{{ project.img }}"  width="80%" style="vertical-align: top"> {% endif %}
+                            {% if project.video %}
+                              <video width="80%" style="vertical-align: top" autoplay muted loop>
+                                <source src="{{ project.video }}" type="video/mp4">
+                              </video>
+                            {% endif %}
                         </td> 
                     </div>
                 </tr>

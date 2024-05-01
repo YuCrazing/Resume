@@ -6,7 +6,7 @@
   description: "
                 A single-file implementation of 3D stable fluids.
   "
-  img: "images/projects/stable_fluids_3d/ink-animation.gif"
+  video: "images/projects/stable_fluids_3d/ink-animation.mp4"
 
   urls: "
     <a class='fancy-link' href='https://github.com/YuCrazing/stable-fluids-3d'>Code</a>
@@ -22,7 +22,7 @@
                 For user convenience, we offer a comprehensive suite of easy-to-use interfaces in C language. Please see the <a href='https://docs.soft2d.tech/'>user documentation</a> for more details. 
                 We also provide a free-to-access unity plugin - <a href='https://github.com/taichi-dev/soft2d-for-unity'>Soft2D for Unity</a>, which allows users to build simulation scenes in a low-code way.
   "
-  img: "images/projects/soft2d/soft2d.gif"
+  video: "images/projects/soft2d/soft2d.mp4"
   urls: "
     <a class='fancy-link' href='https://www.soft2d.tech/'>Website</a>
     <a class='fancy-link' href='https://github.com/taichi-dev/soft2d-release'>Github</a>
@@ -37,7 +37,7 @@
                 To obtain a high-quality fluid surface, we implement a surface reconstruction algorithm based on dual contouring.
                 In this project, we also use a CCD (Continuous collision detection) algorithm to tackle the tricky collision problem. 
   "
-  img: "images/projects/taichi_particles/statue.png"
+  img: "images/projects/taichi_particles/statue_compressed.jpg"
 
 
 - project: Unreal Engine SPH Plugin
@@ -49,7 +49,7 @@
                 To our knowledge, we are the first ones who implement these algorithms in HLSL.
                 The major reference for this project is the SPH-related papers mentioned in Jan Bender's SPH Eurographics course.
   "
-  img: "images/projects/sph_ue4/sph_softbody_compressed.gif"
+  video: "images/projects/sph_ue4/sph_softbody_compressed.mp4"
 
   urls: "
     <a class='fancy-link' href='https://github.com/YuCrazing/UE-SPH-Plugin'>Code</a>
@@ -65,7 +65,7 @@
                 This plugin is optimized specifically for mobile devices and is able to run at 2ms/frame performance on a mid-range mobile phone.
 
   "
-  img: "images/projects/stable_fluids_unity/unity_stable_fluids.gif"
+  video: "images/projects/stable_fluids_unity/unity_stable_fluids_small.mp4"
 
   # urls: "
   #   <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
@@ -129,7 +129,7 @@
                 For free-surface rendering, two rendering methods are implemented and compared: Marching Cubes and SSFR (Screen Space Fluid Rendering). 
                 This project is written by Unity compute shader and fully runs on GPU. Click 'Slides' link for more details.
   "
-  img: "images/projects/sph_pbf/two-3.gif"
+  video: "images/projects/sph_pbf/two-3.mp4"
   urls: "
   <a class='fancy-link' href='slides/sph_pbf_yuzhang.pdf'>Slides</a>
   "
