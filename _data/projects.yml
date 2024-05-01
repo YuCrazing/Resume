@@ -1,19 +1,7 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
-- project: Stable Fluids 3D
-  role: Personal Project
-  duration: Aug, 2023
-  description: "
-                A single-file implementation of 3D stable fluids.
-  "
-  video: "images/projects/stable_fluids_3d/ink-animation.mp4"
 
-  urls: "
-    <a class='fancy-link' href='https://github.com/YuCrazing/stable-fluids-3d'>Code</a>
-    <a class='fancy-link' href='https://www.youtube.com/watch?v=yHe8xkoV5y4'>Video</a>
-  "
-
-- project: Soft2D
+- project: Soft2D Physics Engine
   role: Company Project
   duration: May, 2023
   description: "
@@ -26,9 +14,10 @@
   urls: "
     <a class='fancy-link' href='https://www.soft2d.tech/'>Website</a>
     <a class='fancy-link' href='https://github.com/taichi-dev/soft2d-release'>Github</a>
+    <a class='fancy-link' href='https://www.youtube.com/@Soft2D'>YouTube</a>
   "
 
-- project: High-Performance PBD Engine
+- project: High-Performance PBD Physics Engine
   role: Company Project
   duration: Aug, 2021
   description: "
@@ -38,124 +27,3 @@
                 In this project, we also use a CCD (Continuous collision detection) algorithm to tackle the tricky collision problem. 
   "
   img: "images/projects/taichi_particles/statue_compressed.jpg"
-
-
-- project: Unreal Engine SPH Plugin
-  role: Personal Project
-  duration: Aug, 2021
-  description: "
-                This plugin simulates SPH (smoothed-particle hydrodynamics) linear elasticity deformable objects and fluids in the UE (Unreal Engine) game engine. 
-                We implement several linear algebra algorithms in (high-level shader language) HLSL, for example, a HLSL version's 3x3 SVD algorithm.
-                To our knowledge, we are the first ones who implement these algorithms in HLSL.
-                The major reference for this project is the SPH-related papers mentioned in Jan Bender's SPH Eurographics course.
-  "
-  video: "images/projects/sph_ue4/sph_softbody_compressed.mp4"
-
-  urls: "
-    <a class='fancy-link' href='https://github.com/YuCrazing/UE-SPH-Plugin'>Code</a>
-  "
-
-
-- project: Unity Stable Fluids Plugin
-  role: Company Project
-  duration: May, 2021
-  description: "
-                Inspired by <a href='https://www.unrealengine.com/marketplace/en-US/product/fluidninja-live'> FluidNinja LIVE</a>, this plugin achieves a high-performance stable fluids simulation in the Unity game engine.
-                Besides fluids, this plugin can also be employed to simulate wind field and magic effects in games.
-                This plugin is optimized specifically for mobile devices and is able to run at 2ms/frame performance on a mid-range mobile phone.
-
-  "
-  video: "images/projects/stable_fluids_unity/unity_stable_fluids_small.mp4"
-
-  # urls: "
-  #   <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
-  # "
-
-
-- project: Path Tracing
-  role: Personal Project
-  duration: June, 2020
-  description: "
-                This project achieves a BRDF model renderer based on path tracing (I am considering expanding this project to the BSSRDF model in the future).
-                In Monte Carlo integration, uniform sampling is used, and direct/indirect light sources are sampled separately to improve rendering quality.
-                Moreover, a Russian Roulette scheme is used when casting rays recursively.
-                In this project, a BVH (bounding volume hierarchy) data structure is used to accelerate querying ray-triangle intersection.
-                This project is inspired by the course <a href='https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html'> GAMES 101</a>.
-
-  "
-  img: "images/projects/path_tracing/binary-spp16-long.jpg"
-
-  urls: "
-    <a class='fancy-link' href='https://github.com/YuCrazing/Rendering/tree/main/GAMES101/Assignment7-path-tracing'>Code</a>
-  "
-
-
-- project: GAMES 201 Course Projects
-  role: Personal Project
-  duration: June, 2020
-  description: "
-                This project includes algorithm implementations of the course <a href='https://forum.taichi.graphics/'> GAMES 201: 高级物理引擎实战指南2020 </a>.
-                I complete almost all algorithms mentioned in this course, these algorithms include:
-                Euler fluid methods; Hybrid fluid methods: PIC (Particle-In-Cell), APIC (Affine Particle-In-Cell), FLIP (Fluid Implicit Particles), MPM (Material Point Method); 3D implicit FEM (Finite Element Method); Vortex methods;
-                Several numerical methods: Conjugate Gradients, Multigrid Methods. All procedures are written in the Taichi programming language.
-                Click 'Code' link for more details.
-  "
-  img: "images/projects/taichi/fem.gif"
-
-  urls: "
-    <a class='fancy-link' href='https://github.com/YuCrazing/Taichi'>Code</a>
-    <a class='fancy-link' href='https://github.com/YuCrazing/Taichi'>Gallery</a>
-  "
-
-# - project: Story Generation using CVAE with Discriminator
-#   role: Team Project (with <a href="https://github.com/linxiaoby">@linxiaoby</a>)
-#   duration: Jan, 2020  &mdash; May, 2020
-# #  url: "#"
-#   description: "
-#                   <ul>
-#                   <li>Use CAVE (Conditional Variational AutoEncoder) with discriminator in story generation tasks.</li>
-#                   <li>Tools: Python, Tensorflow, Linux</li>
-#                   </ul>
-#                  "
-
-
-- project: Real-Time Fluid Simulation in Games
-  role: Personal Project (Advisor &colon; Xiaosheng Li)
-  duration: Jul, 2019  &mdash; Sep, 2019
-  description: "
-                This pre-research project was finished during my internship in NetEase Games, with advisor <a href='https://www.linkedin.com/in/xiaosheng-li-54aa0484/?originalSubdomain=cn'>Xiaosheng Li </a>.
-                This project aims to explore the possibility of achieving real-time interactive fluid simulations in desktop and mobile games.
-                Two popular Lagrangian methods, SPH (Smooth Particles Hydrodynamics) and PBF (Position Based Fluids), are achieved on both PC and cell phones, and their performance is compared.
-                For free-surface rendering, two rendering methods are implemented and compared: Marching Cubes and SSFR (Screen Space Fluid Rendering). 
-                This project is written by Unity compute shader and fully runs on GPU. Click 'Slides' link for more details.
-  "
-  video: "images/projects/sph_pbf/two-3.mp4"
-  urls: "
-  <a class='fancy-link' href='slides/sph_pbf_yuzhang.pdf'>Slides</a>
-  "
-
-
-- project: Vascular Fitting System
-  role: Personal Project
-  duration: 2017
-  url: "https://yucrazing.github.io/2018/06/01/Vascular-Fitting-System-Based-on-Ball-B-Spline-Curves.html"
-  description: "
-                A vascular fitting system for visualizing, editing, and fitting 3D vascular data.
-                This software is developed during my first year of postgraduate, and it is currently used by Virtual Reality and Visualization Lab of Beijing Normal University.
-                This system is based on Dynamic Ball B-Spline Curves and is written in Qt / C++ / OpenGL.
-  "
-  img: "images/projects/vascular_system/vessels_0.jpg"
-
-  urls: "<a class='fancy-link' href='https://yucrazing.github.io/2018/06/01/Vascular-Fitting-System-Based-on-Ball-B-Spline-Curves.html'>Gallery</a>"
-
-
-- project: Computer Graphics Course Assistant
-  role: Personal Project
-  duration: 2017
-  description: "
-                  I design assignments for Beijing Normal University undergraduate computer graphics course.
-                  The content includes a modern OpenGL tutorial, basic shading modes, mesh subdivision, curves and surfaces, physical simulation, and simple ray tracing.
-                  These procedures are based on Qt C++ framework and use the OpenGL 4.0 APIs.
-                 "
-  img: "images/projects/course_assistant/3.png"
-  urls: "<a class='fancy-link' href='https://yucrazing.github.io/2019/06/02/Computer-Graphics-Course-Labs-Design.html'>Gallery</a>"

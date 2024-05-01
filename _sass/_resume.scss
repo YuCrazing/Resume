@@ -3,6 +3,11 @@
 
 // util
 
+a {
+  /* text-decoration: none; */
+  color: #005fa3;
+}
+
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
