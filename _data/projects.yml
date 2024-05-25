@@ -1,20 +1,42 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: Soft2D Physics Engine
-  role: Company Project
+- project: "Several Classical Partial Differential Equations: Numerical and Exact Solutions"
+  role: Personal Project
   duration: May, 2023
   description: "
-                <a href='https://www.soft2d.tech/'>Soft2D</a> is a 2D multi-material continuum physics engine designed for real-time applications. 
-                With soft2d, users can simulate various materials such as fluids, sand, snow, and elastic bodies within their applications. Soft2D runs on GPU, and currently supports Vulkan and Metal backends.
-                For user convenience, we offer a comprehensive suite of easy-to-use interfaces in C language. Please see the <a href='https://docs.soft2d.tech/'>user documentation</a> for more details. 
-                We also provide a free-to-access unity plugin - <a href='https://github.com/taichi-dev/soft2d-for-unity'>Soft2D for Unity</a>, which allows users to build simulation scenes in a low-code way.
+    Several classical linear partial differential equations, including the transport equation, Laplace's equation, the heat equation, and the wave equation, are analyzed. 
+    Their exact solutions and numerical solutions (including Eulerian methods and Monte Carlo methods) in two-dimensional space are then compared.
   "
-  video: "images/projects/soft2d/soft2d.mp4"
+  video: "images/projects/pde/wave_1200_16.mp4"
   urls: "
-    <a class='fancy-link' href='https://www.soft2d.tech/'>Website</a>
-    <a class='fancy-link' href='https://github.com/taichi-dev/soft2d-release'>Github</a>
-    <a class='fancy-link' href='https://www.youtube.com/@Soft2D'>YouTube</a>
+    <a class='fancy-link' href='https://github.com/YuCrazing/PDE'>Github</a>
+    <a class='fancy-link' href='https://yucrazing.github.io/others/2023/08/24/classical-pde-en.html'>Article</a>
+  "
+
+- project: A Corrected Derivation of Invertible Neo-Hookean Model
+  role: Personal Project
+  duration: May, 2023
+  description: "
+    In this project, we implement several different invertible constitutive models. 
+    Additionally, we correct the derivation of the invertible neo-hookean model, which is presented in the SIGGRAPH course 'Dynamic Deformables: Implementation and Production Practicalities'.
+  "
+  img: "images/projects/fem/fem.png"
+  urls: "
+    <a class='fancy-link' href='https://github.com/YuCrazing/Linear-FEM'>Github</a>
+    <a class='fancy-link' href='https://yucrazing.github.io/assets/files/Stable_NeoHookean.pdf'>Article</a>
+  "
+
+- project: A Derivation of 2D Semi-Implicit MPM
+  role: Personal Project
+  duration: May, 2023
+  description: "
+    We provide a detailed derivation of a 2D semi-implicit MPM (Material Point Method) time integration solver, and the experimental results are analyzed.
+    Unlike other matrix-free methods (such as PCG), which avoid the explicit construction of stiffness matrices, we provide a full derivation for a 2D semi-implicit method and present the explicit form of the stiffness matrix.
+  "
+  img: "images/projects/mpm/mpm_semi_implicit.png"
+  urls: "
+    <a class='fancy-link' href='https://yucrazing.github.io/others/2023/08/25/semi-implicit-mpm-en.html'>Article</a>
   "
 
 - project: High-Performance PBD Physics Engine
