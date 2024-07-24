@@ -27,7 +27,7 @@
     <a class='fancy-link' href='https://yucrazing.github.io/assets/files/Stable_NeoHookean.pdf'>Article</a>
   "
 
-- project: A Derivation of 2D Semi-Implicit MPM
+- project: 2D Semi-Implicit MPM
   role: Personal Project
   duration: May, 2023
   description: "
@@ -37,6 +37,7 @@
   img: "images/projects/mpm/mpm_semi_implicit.png"
   urls: "
     <a class='fancy-link' href='https://yucrazing.github.io/others/2023/08/25/semi-implicit-mpm-en.html'>Article</a>
+    <a class='fancy-link' href='https://mp.weixin.qq.com/s/Qn64JUgpuI0Qe3XKz6LcZQ'>Tutorial</a>
   "
 
 - project: High-Performance PBD Physics Engine
