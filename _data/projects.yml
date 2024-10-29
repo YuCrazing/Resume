@@ -1,7 +1,17 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: "Several Classical Partial Differential Equations: Numerical and Exact Solutions"
+- project: "Baraff-Witkin Cloth Model with IPC Collision Handling"
+  role: Personal Project
+  duration: Oct, 2024
+  description: "
+    An implementation of the Baraff-Witkon cloth model. Unlike the original solver, our solver is based on a variational (optimization) formulation of the cloth model,
+    and we solve this optimization problem using Newton's method. The IPC (Incremental Potential Contact) algorithm is used to handle the collision between the cloth and the rigid body.
+  "
+  video: "images/projects/cloth/cloth_short.mp4"
+
+
+- project: "Classical Partial Differential Equations: Numerical and Exact Solutions"
   role: Personal Project
   duration: May, 2023
   description: "

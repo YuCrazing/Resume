@@ -24,11 +24,11 @@ resume_header_contact_info:     "<font size=2>yucrazing@mail.bnu.edu.cn</font>"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p >
-                            I am a graphics engineer at Taichi Graphics. Before joining Taichi, I worked at Tencent Games and NetEase Games (internship).
-                            I obtained my master's and bachelor's degrees from the Department of Computer Science and Technology, Beijing Normal University.
-                            My advisor was Prof. Zhongke Wu.
+                            I am a research assistant in Prof. Yin Yang's lab at the University of Utah. 
+                            Before joining Yin Yang's lab, I worked at Taichi Graphics and Tencent Games, and interned at NetEase Games.
+                            I received both my bachelor's and master's degrees in Computer Science and Technology from Beijing Normal University, where I was advised by Prof. Zhongke Wu.
                             <br>
-                            My research interests are in computer graphics, including physics-based simulation, real-time rendering, etc.
+                            My research interests are in computer graphics, including physics-based simulation, 3D AIGC, etc.
                         </p>
                         <a href=\"https://yucrazing.github.io/assets/files/YuZhang_CV_en.pdf\"> CV </a>"
 
