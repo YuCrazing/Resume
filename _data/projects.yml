@@ -10,6 +10,15 @@
   "
   video: "images/projects/cloth/cloth_short.mp4"
 
+- project: "Meshy - A 3D AIGC Project"
+  role: Participant
+  duration: Oct, 2023
+  description: "
+      Participating in the <a href='https://www.meshy.ai/'> Meshy </a> project as a graphics R&D engineer. Meshy is a 3D AIGC project that aims to generate 3D models from the text or image prompt. 
+      My responsibilities include optimizing the generateion quality and performance of the 3D generative model, and investigating various differentiable geometric representations, etc.
+    "
+  img: "images/projects/meshy/meshy_1.png"
+
 
 - project: "Classical Partial Differential Equations: Numerical and Exact Solutions"
   role: Personal Project

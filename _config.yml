@@ -26,8 +26,10 @@ display_header_contact_info:    "true"
 resume_header_intro: "<p >
                             I am a research assistant in <a href=\"https://yangzzzy.github.io/\">Prof. Yin Yang</a> 's lab at the University of Utah. Meanwhile, I am also collaborating with <a href=\"https://people.csail.mit.edu/ganchuang/\">Prof. Chuang Gan</a>.
                             <br>
+                            <br>
                             Before joining Yin Yang's lab, I worked at Taichi Graphics and Tencent Games, and interned at NetEase Games.
                             I received both my bachelor's and master's degrees in Computer Science and Technology from Beijing Normal University, where I was advised by Prof. Zhongke Wu.
+                            <br>
                             <br>
                             My research interests are in computer graphics, including physics-based simulation, 3D AIGC, etc.
                         </p>
