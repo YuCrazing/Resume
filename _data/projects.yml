@@ -5,7 +5,7 @@
   role: Personal Project
   duration: Oct, 2024
   description: "
-    An implementation of the Baraff-Witkon cloth model. Unlike the original solver, our solver is based on a variational (optimization) formulation of the cloth model,
+    An implementation of the Baraff-Witkon cloth model. Unlike the original solver, our solver is based on an optimization formulation of the cloth model,
     and we solve this optimization problem using Newton's method. The IPC (Incremental Potential Contact) algorithm is used to handle the collision between the cloth and the rigid body.
   "
   video: "images/projects/cloth/twisting_100_1.mp4"
